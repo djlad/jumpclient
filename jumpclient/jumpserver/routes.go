@@ -8,4 +8,5 @@ import(
 
 func serveMainRoutes(){
 	http.HandleFunc("/", mainHandler)
+	http.HandleFunc("/register", registerHandler)
 }
